@@ -159,8 +159,8 @@ conf_matrix = confusion_matrix(actuals, predictions)
 class_report = classification_report(actuals, predictions, target_names=iris.target_names)
 
 # Print details
-print("\nName: S.YOGESH")
-print("Register No: 212224230311")
+print("\nName: SUBASH RF")
+print("Register No: 212223230218")
 print(f'Test Accuracy: {accuracy:.2f}%')
 print("Confusion Matrix:\n", conf_matrix)
 print("Classification Report:\n", class_report)
@@ -181,8 +181,8 @@ with torch.no_grad():
     predicted_class_index = torch.argmax(output[0]).item()
     predicted_class_label = iris.target_names[predicted_class_index]
 
-print("\nName: S.YOGESH")
-print("Register No: 212224230311")
+print("\nName: SUBASH R")
+print("Register No: 212223230218")
 print(f'Predicted class for sample input: {predicted_class_label}')
 print(f'Actual class for sample input: {iris.target_names[y_test[5].item()]}')
 
@@ -190,24 +190,26 @@ print(f'Actual class for sample input: {iris.target_names[y_test[5].item()]}')
 ```
 
 ### Dataset Information
-<img width="861" height="638" alt="image" src="https://github.com/user-attachments/assets/ba4ff44b-b2c8-4d2a-bb02-834a3a5c1b2b" />
+<img width="1005" height="573" alt="Screenshot 2025-09-02 085502" src="https://github.com/user-attachments/assets/cbff40a7-8640-46e2-b7b3-5f7e7e760663" />
+
 
 
 ### OUTPUT
 
 ## Confusion Matrix
+<img width="562" height="789" alt="Screenshot 2025-09-02 085628" src="https://github.com/user-attachments/assets/20b31a7a-e7ad-41e7-9d50-bb88e66fadf4" />
 
-<img width="632" height="589" alt="image" src="https://github.com/user-attachments/assets/4c8140fd-4fea-4bbd-8383-5aa855de59d7" />
 
 ## Classification Report
 
-<img width="614" height="402" alt="image" src="https://github.com/user-attachments/assets/8bf2ff65-0c13-4c9d-a8d9-fc15566cd03d" />
+<img width="644" height="470" alt="Screenshot 2025-09-02 084817" src="https://github.com/user-attachments/assets/55016ba7-aac4-4262-a444-c5139ba1f480" />
+
 
 
 ### New Sample Data Prediction
+<img width="497" height="124" alt="Screenshot 2025-09-02 085338" src="https://github.com/user-attachments/assets/4f3c4486-2d34-49d3-87b3-79edd43d1108" />
 
-<img width="587" height="173" alt="image" src="https://github.com/user-attachments/assets/4d438553-fa24-4b7c-9d2c-7b72a49846ed" />
 
 
 ## RESULT
-Include your result here
+Thus we have developed a neural network classification model for the given dataset.
